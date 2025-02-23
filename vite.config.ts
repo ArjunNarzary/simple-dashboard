@@ -9,5 +9,5 @@ export default defineConfig({
       "@": path.resolve(__dirname, "./src"),
     },
   },
-  base: "/simple-dashboard/",
+  base: process.env.VITE_BASE_PATH,
 })
