@@ -1,4 +1,4 @@
-import React, { useState } from "react"
+import { useState } from "react"
 
 const EmojiSlider = ({ initVal }: { initVal: number }) => {
   const [value, setValue] = useState(initVal)

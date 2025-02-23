@@ -1,4 +1,3 @@
-import React from "react"
 import EmojiSlider from "./EmojiSlider"
 import { Avatar, AvatarFallback, AvatarImage } from "./ui/avatar"
 import { IModeItem } from "@/interface"
